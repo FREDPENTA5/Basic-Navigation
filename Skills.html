@@ -6,22 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SKILLS</title>
     <style>
-        body{background-color: rgb(49, 44, 44);}
+        
+        html{scroll-behavior: smooth;}
+        .body{background-color: rgb(49, 44, 44);}
+
+        .box{background-color: blueviolet;
+            height:150px;
+            width: clamp(220px 55%,300px);
+            display: flex;}
+
+        .TOP, .BOTTOM {height: 100vh;}
+
+        
+                                                
     </style>
     
 </head>
 <body>
-    
-   <a href="index.html">index page</a>
-   <a href="contacts.html">Open contact Page</a>
-   <a href="Skills.html">Open Skills Page</a>
-    <H1>What can Fred do?</H1>
-    <ol type="I">
-        <LI>Fred is a Programmer</LI>
-        <li>Fred is a scummer</li>
-        <li>Fred is an Arsenal supporter</li>
-    </ol>
-    
+        <div>
+            <a href="index.html">index page</a>
+            <a href="contacts.html">Open contact Page</a>
+            <a href="Skills.html">Open Skills Page</a>
+       </div>
+        <H1>What can Fred do?</H1>
 
+        <div class="BOTTOM" id="BOTTOM"> 
+            <a href="#TOP"> BOTTOM</a>
+        </div>
+        <ol type="I">
+            <LI>Fred is a Programmer</LI>
+            <li>Fred is a scummer</li>
+            <li>Fred is an Arsenal supporter</li>
+        </ol>
+        <div class="box">
+
+            <div class="TOP">
+                <a href="#BOTTOM" id="TOP">TOP</a>
+            </div>
+        
+
+   
+</div>
 </body>
 </html>
